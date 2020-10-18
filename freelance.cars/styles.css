@@ -1,0 +1,283 @@
+#navigation{
+background-color: black;
+padding: 0 7%;
+position: fixed;
+z-index: 1;
+width: 100%;
+}
+
+.navbar {
+
+  color: #fff;
+
+
+}
+.b1 {
+  font-size: 48px;
+  font-family: "Anton";
+  margin-left: -15px;
+}
+
+.b2 {
+  margin: 0 400%;
+  height: inherit;
+}
+
+/*TITLE*/
+
+#title {
+  background-color: black;
+  margin: 0;
+  padding: 0 7%;
+}
+.header {
+  color: #eae7d9;
+  padding: 115px 0 300px 0;
+  text-align: left;
+  font-size: 29px;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 100;
+}
+.brands{
+  font-size: 18px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: " ";
+  width: 25px;
+height: 1px;
+background: #fff;
+margin-left:  10px;
+margin-right: 20px;
+vertical-align: middle;
+}
+hr.title-divider {
+  height: 0;
+  background-color: Grey;
+  margin: 0;
+  padding-top: 100px;
+}
+
+
+
+
+#content {
+  padding: 0 100px 100px 100px;
+  margin-top:  -200px;
+}
+
+img {
+  width: inherit;
+  height: 396px;
+}
+hr{
+  height: 0;
+  background-color: Grey;
+  margin: 0;
+
+}
+
+.turn_img {
+  height: 396px;
+  width: inherit;
+  background-size: cover;
+  background-position: center;
+}
+
+.description {
+  padding-top: 20px;
+  min-height: 240px;
+  line-height: 23px;
+
+}
+
+.line {
+  padding: 40px;
+}
+
+.brand-name {
+  font-size: 34px;
+  color: #000 !important;
+  font-weight: 100;
+  line-height: 40px;
+  padding-bottom: 23px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-family: "Anton";
+}
+.logo {
+  height: 396px;
+  width: inherit;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.logo:hover {
+display: flex;
+background-repeat: no-repeat;
+background-position: center;
+opacity: 1;
+}
+.bmw {
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/BMW-Tuning.jpg?v=6840139128483028830');
+}
+.logo-bmw:hover{
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/bmw_insignia.png');
+}
+
+.benz{
+  background-image:url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/Mercedes-Tuning.jpg?v=17390939574115886909');
+}
+.logo-benz:hover {
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/mercedez_insignia.png');
+}
+.mclaren {
+  background-image:url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/McLaren-Tuning.jpg?v=3274992181883320174');
+}
+.logo-mclaren:hover{
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/mclaren_insignia.png');
+}
+
+.ferrari{
+    background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/Ferrari-Tuning.jpg?v=12129019583895313843');
+}
+.logo-ferrari:hover{
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/ferrari_insignia.png');
+}
+
+.porche{
+  background-image:url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/Porsche-Tuning.jpg?v=7354797287813940472');
+}
+.logo-porche:hover{
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/porsche_insignia.png');
+}
+
+.lamborghini{
+  background-image:url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/Lamborghini-Tuning.jpg?v=7919669476816098997');
+}
+.logo-lamborghini:hover{
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/laborghini_insignia.png');
+}
+
+.bentley{
+  background-image:url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/Bentley-Tuning.jpg?v=8339416047032538921');
+}
+.logo-bentley:hover{
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/bantely_insignia.png');
+}
+.audi{
+  background-image:url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/Audi-Tuning.jpg?v=1308943349859698158');
+}
+.logo-audi:hover{
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/audi_insignia.png');
+}
+.landrover{
+  background-image:url('https://cdn.shopify.com/s/files/1/0014/4683/8349/t/12/assets/Land-Rover-Tuning.jpg?v=505442714132213605');
+}
+.logo-landrover:hover{
+  background-image: url('https://cdn.shopify.com/s/files/1/0014/4683/8349/files/landrover_insignia.png');
+}
+
+
+
+
+/* FOOTER */
+#footer{
+  background-color: black;
+  color: #eae7d9;
+  font-weight: 100;
+  margin: 0;
+  padding: 7% 7% 7% 7% ;
+  position: absolute;
+}
+.btn{
+  margin-left: 1070px;
+  margin-top: 20px;
+  padding: 10px 40px;
+  font-size: 20px;
+}
+.brand2{
+  height: inherit;
+  position: absolute;
+  margin-top: 20px;
+  }
+.description2{
+position: absolute;
+margin-left: 200px;
+}
+.separator{
+  margin-top: 100px;
+}
+.fab{
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+.foot-link{
+  margin-top: 20px ;
+}
+.adress{
+
+  text-align: right;
+  margin-top: 20px;
+}
+a{
+  color: #eae7d9;
+}
+@media(max-width:1028px) {
+  #footer{
+    padding: 0 40px;
+    padding-left: 0;
+    position: static;
+  }
+  .brand2{
+    height: inherit;
+    position: static;
+    margin-top: 30px ;
+    margin-left: 40px;
+    position: static;
+  }
+  .description2{
+    margin-top:30px;
+    margin-left: 40px;
+    position: static;
+
+  }
+  .btn{
+    margin-top: 30px;
+    margin-left:40px;
+    padding: 10px 40px;
+    font-size: 20px;
+  }
+  hr.separator{
+    height: 0;
+    background-color: Grey;
+    margin: 50px 0px 0 40px;
+    border: 1px solid grey;
+  }
+  .fab{
+    margin-left: 40px;
+    margin-top: 40px;
+
+  }
+
+  .foot-link{
+    margin-top: 30px ;
+    margin-left: 40px;
+  }
+  .wierd{
+    margin-left: 20px;
+  }
+  br.para{
+    display: none;
+    margin-left: 10px;
+  }
+  .adress{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+
+
+}
